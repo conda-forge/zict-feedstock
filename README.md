@@ -14,9 +14,7 @@ Summary: Composable Dictionary Classes
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/zict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/zict-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/zict-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/zict-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/zict-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/zict-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/zict-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/zict-feedstock)
 
 Current release info
 ====================
