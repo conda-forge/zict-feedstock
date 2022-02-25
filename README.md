@@ -3,7 +3,7 @@ About zict
 
 Home: http://github.com/mrocklin/zict
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/zict-feedstock/blob/master/LICENSE.txt)
 
