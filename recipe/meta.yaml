@@ -1,4 +1,4 @@
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 {% set name = "zict" %}
 
 package:
@@ -8,20 +8,20 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8e2969797627c8a663575c2fc6fcb53a05e37cdb83ee65f341fc6e0c3d0ced16
+  sha256: 15b2cc15f95a476fbe0623fd8f771e1e771310bf7a01f95412a0b605b6e47510
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
 requirements:
   build:
-    - python
-    - setuptools
+    - python >=3.7
+    - pip
 
   run:
-    - python
+    - python >=3.7
     - heapdict
 
 test:
@@ -30,7 +30,7 @@ test:
 
 about:
   home: http://github.com/mrocklin/zict
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Composable Dictionary Classes
 
